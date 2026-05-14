@@ -60,10 +60,28 @@ A knight-like piece:
 ```text
 add 1,2 2,1 -1,-2 -2,-1 -1,2 -2,1 1,-2 2,-1 #000000
 ```
+## Other pieces
+Here are some other pieces used by numberphile in this video to genarate patterns:
 
+https://www.youtube.com/watch?v=VgmDuBCayPw
+
+![image](images/knight_moves.png)
+![image](images/zebra_moves.png)
+![image](images/antelope_moves.png)
+![image](images/elephant_moves.png)
 ## Output
 
 The `render` command produces a PNG image using the current piece definitions.
+
+These are some images generated using this program:
+***Two Knights***
+![image](images/2knights1000.png)
+***One Knight One Zebra***
+![image](images/1knight1zebra1000.png)
+***One Zebra One Elephant One Antelope***
+![image](images/1zebra1elephant1antelope3000.png)
+***Two Knights One Elephant***
+![image](images/2knights1elephant1000.png)
 
 ## Inspiration
 
