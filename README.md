@@ -4,6 +4,8 @@ A simple Java project for generating visual patterns from chess-like piece movem
 
 You specify one or more pieces by giving the moves they can make and an optional color. The program then places those pieces step by step on a square board and renders the resulting pattern to a PNG file.
 
+**Disclaimer:** This project was made in a day and has not been tested, bugs are to be expected. I have also experienced that the program can crash when calculating bigger pictures, but 3000x3000 seems to be the best size for finding patterns and that has not been a problem for the program so far.
+
 ## How to use
 
 Compile the project:
@@ -61,7 +63,7 @@ A knight-like piece:
 add 1,2 2,1 -1,-2 -2,-1 -1,2 -2,1 1,-2 2,-1 #000000
 ```
 ## Other pieces
-Here are some other pieces used by numberphile in this video to genarate patterns:
+Here are some other pieces used by numberphile in this video to generate patterns:
 
 https://www.youtube.com/watch?v=VgmDuBCayPw
 
@@ -74,13 +76,13 @@ https://www.youtube.com/watch?v=VgmDuBCayPw
 The `render` command produces a PNG image using the current piece definitions.
 
 These are some images generated using this program:
-***Two Knights***
+**Two Knights**
 ![image](images/2knights1000.png)
-***One Knight One Zebra***
+**One Knight One Zebra**
 ![image](images/1knight1zebra1000.png)
-***One Zebra One Elephant One Antelope***
+**One Zebra One Elephant One Antelope**
 ![image](images/1zebra1elephant1antelope3000.png)
-***Two Knights One Elephant***
+**Two Knights One Elephant**
 ![image](images/2knights1elephant1000.png)
 
 ## Inspiration
